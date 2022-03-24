@@ -73,8 +73,6 @@ public class CurrencyConverterImplementation implements CurrencyConverterInterfa
                     .queryParam("compact", "ultra")
                     .queryParam("apiKey", apiKey)
                     .toUriString();
-
-
         return url;
     }
 
